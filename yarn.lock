@@ -2260,6 +2260,11 @@ assert-plus@1.0.0, assert-plus@^1.0.0:
   resolved "https://registry.yarnpkg.com/assert-plus/-/assert-plus-1.0.0.tgz#f12e0f3c5d77b0b1cdd9146942e4e96c1e4dd525"
   integrity sha1-8S4PPF13sLHN2RRpQuTpbB5N1SU=
 
+async-limiter@~1.0.0:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/async-limiter/-/async-limiter-1.0.1.tgz#dd379e94f0db8310b08291f9d64c3209766617fd"
+  integrity sha512-csOlWGAcRFJaI6m+F2WKdnMKr4HhdhFVBk0H/QbJFMCr+uO2kwohwXQPxw/9OCxp05r5ghVBFSyioixx3gfkNQ==
+
 async-retry@^1.2.1:
   version "1.3.3"
   resolved "https://registry.yarnpkg.com/async-retry/-/async-retry-1.3.3.tgz#0e7f36c04d8478e7a58bdbed80cedf977785f280"
@@ -2477,6 +2482,11 @@ balanced-match@^1.0.0:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/balanced-match/-/balanced-match-1.0.2.tgz#e83e3a7e3f300b34cb9d87f615fa0cbf357690ee"
   integrity sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==
+
+base-64@0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/base-64/-/base-64-0.1.0.tgz#780a99c84e7d600260361511c4877613bf24f6bb"
+  integrity sha1-eAqZyE59YAJgNhURxId2E78k9rs=
 
 base16@^1.0.0:
   version "1.0.0"
@@ -5838,7 +5848,7 @@ sc-channel@^1.2.0:
   dependencies:
     component-emitter "1.2.1"
 
-sc-errors@^1.4.1:
+sc-errors@^1.4.0, sc-errors@^1.4.1:
   version "1.4.1"
   resolved "https://registry.yarnpkg.com/sc-errors/-/sc-errors-1.4.1.tgz#53e80030fe647e133d73b51eaa7d2b0f7591fd5b"
   integrity sha512-dBn92iIonpChTxYLgKkIT/PCApvmYT6EPIbRvbQKTgY6tbEbIy8XVUv4pGyKwEK4nCmvX4TKXcN0iXC6tNW6rQ==
@@ -6046,6 +6056,22 @@ sliced@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/sliced/-/sliced-1.0.1.tgz#0b3a662b5d04c3177b1926bea82b03f837a2ef41"
   integrity sha1-CzpmK10Ewxd7GSa+qCsD+Dei70E=
+
+socketcluster-client@13.0.0:
+  version "13.0.0"
+  resolved "https://registry.yarnpkg.com/socketcluster-client/-/socketcluster-client-13.0.0.tgz#2bc799736e7b476a5012ec272b589ca0f79c1b70"
+  integrity sha512-Fdgm6j0TgdXIkVrMI2oBzjW6WL22HmGaX6Uky5I/DmhfJGAu9hoG45VnBxUf+jE+ciZHx5NHorSp00A1YMLvCw==
+  dependencies:
+    base-64 "0.1.0"
+    clone "2.1.1"
+    component-emitter "1.2.1"
+    linked-list "0.1.0"
+    querystring "0.2.0"
+    sc-channel "^1.2.0"
+    sc-errors "^1.4.0"
+    sc-formatter "^3.0.1"
+    uuid "3.2.1"
+    ws "5.1.1"
 
 socketcluster-client@^14.3.2:
   version "14.3.2"
@@ -6804,10 +6830,22 @@ write-file-atomic@^3.0.0:
     signal-exit "^3.0.2"
     typedarray-to-buffer "^3.1.5"
 
+ws@5.1.1:
+  version "5.1.1"
+  resolved "https://registry.yarnpkg.com/ws/-/ws-5.1.1.tgz#1d43704689711ac1942fd2f283e38f825c4b8b95"
+  integrity sha512-bOusvpCb09TOBLbpMKszd45WKC2KPtxiyiHanv+H2DE3Az+1db5a/L7sVJZVDPUC1Br8f0SKRr1KjLpD1U/IAw==
+  dependencies:
+    async-limiter "~1.0.0"
+
 ws@^7.5.0:
   version "7.5.6"
   resolved "https://registry.yarnpkg.com/ws/-/ws-7.5.6.tgz#e59fc509fb15ddfb65487ee9765c5a51dec5fe7b"
   integrity sha512-6GLgCqo2cy2A2rjCNFlxQS6ZljG/coZfZXclldI8FB/1G3CCI36Zd8xy2HrFVACi8tfk5XrgLQEk+P0Tnz9UcA==
+
+ws@^8.5.0:
+  version "8.5.0"
+  resolved "https://registry.yarnpkg.com/ws/-/ws-8.5.0.tgz#bfb4be96600757fe5382de12c670dab984a1ed4f"
+  integrity sha512-BWX0SWVgLPzYwF8lTzEy1egjhS4S4OEAHfsO8o65WOVsrnSRGaSiUaa9e0ggGlkMTtBlmOpEXiie9RUcBO86qg==
 
 xdg-basedir@^4.0.0:
   version "4.0.0"
