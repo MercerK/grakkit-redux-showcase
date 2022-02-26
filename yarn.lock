@@ -3877,10 +3877,10 @@ graceful-fs@^4.1.2, graceful-fs@^4.1.6, graceful-fs@^4.2.0, graceful-fs@^4.2.4, 
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.9.tgz#041b05df45755e587a24942279b9d113146e1c96"
   integrity sha512-NtNxqUcXgpW2iMrfqSfR73Glt39K+BLwWsPs94yR63v45T0Wbej7eRmL5cWfwEgqXnmjQp3zaJTshdRW/qC2ZQ==
 
-grakkit-boilerplate-util@^0.0.19:
-  version "0.0.19"
-  resolved "https://registry.yarnpkg.com/grakkit-boilerplate-util/-/grakkit-boilerplate-util-0.0.19.tgz#12633a64cde37ca1fe3938c1b9b3debdf957ab67"
-  integrity sha512-1syya9CZBcwSES/sN9V/fWjcDjX0SObF266F1JQEAwv5beFw714eHHvgfZukDHYh57rfo3SEOycVCudQlK0CJg==
+grakkit-boilerplate-util@^0.0.20:
+  version "0.0.20"
+  resolved "https://registry.yarnpkg.com/grakkit-boilerplate-util/-/grakkit-boilerplate-util-0.0.20.tgz#7bd3a8e68884e8fcd88531bbab6da6b5c31e17df"
+  integrity sha512-LcVGbCTSFJb6hPieeqUVWb4yS/iWbuRVdDa91pehcvX6IJC2cUYKDT5wQSnNyGxLMQfNoyUCv9sllc+nlGIBnA==
   dependencies:
     "@grakkit/stdlib-paper" "^1.0.12"
     typescript "^4.5.5"
